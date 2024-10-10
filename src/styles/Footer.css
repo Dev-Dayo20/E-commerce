@@ -1,0 +1,27 @@
+/* src/components/Footer.css */
+.footer {
+  background-color: rgb(2, 48, 81);
+  color: white;
+  padding: 4rem;
+}
+
+.card-wrap {
+  display: flex;
+  align-items: center;
+}
+/* .card-wrap p {
+  display: flex;
+} */
+
+a {
+  text-decoration: none;
+  color: greenyellow;
+}
+
+.menu-item {
+  margin: 0.6rem;
+}
+
+.veex-shopify {
+  color: greenyellow;
+}

@@ -1,0 +1,20 @@
+.first-page {
+  background-color: rgb(2, 48, 81);
+  color: white;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+.veex-shopify-color {
+  color: lawngreen;
+}
+
+@media (max-width: 500px) {
+  .first-page {
+    height: 100%;
+  }
+}

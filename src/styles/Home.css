@@ -1,0 +1,39 @@
+.welcome-head {
+  height: 100vh;
+  background-color: rgb(2, 48, 81);
+  color: white;
+  display: flex;
+  align-items: center; /* Vertically centers the content */
+  justify-content: center; /* Horizontally centers the content */
+  padding: 3rem; /* Ensure no padding in the section */
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.the-title {
+  color: greenyellow;
+}
+
+.btn {
+  background-color: greenyellow;
+  color: black;
+  font-weight: bold;
+}
+
+.card:hover {
+  margin-top: 3rem;
+  box-shadow: 0 5px 20px rgba(3, 193, 51, 0.2);
+  transition-property: all;
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+.girl-section {
+  background-color: aliceblue;
+}
+
+@media (max-width: 800px) {
+  .welcome-head {
+    height: 100%;
+  }
+}

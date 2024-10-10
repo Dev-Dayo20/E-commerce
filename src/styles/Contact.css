@@ -1,0 +1,26 @@
+.message-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#msg-box {
+  background-color: rgb(245, 245, 245);
+  padding: 2rem;
+}
+button {
+  background-color: greenyellow;
+  padding: 1rem;
+  color: black;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  cursor: pointer;
+  margin: 2rem;
+}
+
+button:hover {
+  background-color: rgb(3, 60, 65);
+  color: white;
+  transition: background-color 1s;
+}
