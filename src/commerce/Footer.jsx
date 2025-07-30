@@ -17,7 +17,7 @@ function Footer() {
                       <Link to={"/about-us"}>About Us</Link>
                     </li>
                     <li className="menu-item">
-                      <Link to={"/contact-us"}>COntact Us</Link>
+                      <Link to={"/contact-us"}>Contact Us</Link>
                     </li>
                     <li className="menu-item">
                       <a href="#">Our Journal</a>
